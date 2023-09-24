@@ -1,0 +1,38 @@
+.header_container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 1.5rem 1rem;
+  background: linear-gradient(180deg, #0e0e0e, transparent);
+}
+.header_wrapper {
+  display: flex;
+}
+
+.nick_logo {
+  height: 3rem;
+  width: 3rem;
+  object-fit: contain;
+}
+
+@media screen and (min-width: 1048px) {
+  .header_container {
+    padding: 3rem 2rem;
+  }
+}
+@media screen and (min-width: 1340px) {
+  .header_container {
+    padding: 1rem 6rem 3rem 6rem;
+  }
+  .nick_logo {
+    height: 4rem;
+    width: 4rem;
+  }
+}
+
+@media screen and (min-width: 1580px) {
+  .header_container {
+    padding: 3rem 6rem;
+  }
+}
