@@ -22,6 +22,7 @@ export default function Home() {
 
   return (
     <main className={`main-wrapper`}>
+      <div className="svc-cntr"> </div>
       <Header />
       <section className={`${styles.hero_section} block-content max-gl-wdh`}>
         <div className={`${styles.hero_wrapper} max-gl-wdh v-align-gap-1`}>
