@@ -10,7 +10,7 @@
   display: grid;
   align-items: center;
   justify-content: flex-start;
-  filter: drop-shadow(0px 7px 57px #090808);
+  filter: drop-shadow(0px 7px 57px #0e0e0e);
 }
 
 .nicks_acc {

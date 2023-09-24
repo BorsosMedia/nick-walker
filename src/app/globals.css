@@ -318,7 +318,7 @@ h2.hd__prest span::after {
   display: block;
   background-repeat: no-repeat;
   grid-column: 1/-1;
-  filter: drop-shadow(0px 7px 57px #090808);
+  filter: drop-shadow(0px 7px 57px #000000);
 }
 
 @keyframes HeadingAnimation {
@@ -348,7 +348,7 @@ h2.hd__prest span::after {
   display: grid;
   align-items: flex-end;
   background-repeat: no-repeat;
-  filter: drop-shadow(0px 7px 57px #090808);
+  filter: drop-shadow(0px 7px 57px #000000);
 }
 
 .nicks-wrapperA {
@@ -389,8 +389,8 @@ h2.hd__prest span::after {
   width: 100%;
   background-size: cover;
   padding: 1rem;
-  height: 32rem;
-  filter: drop-shadow(0px 7px 57px #090808);
+  height: 25rem;
+  filter: drop-shadow(0px 7px 57px #000000);
 }
 .bloodwork_wrapper > p {
   max-width: 50%;
@@ -445,12 +445,12 @@ h2.hd__prest span::after {
 }
 
 .full-time-plan_card {
-  background: linear-gradient(-45deg, #7e0c0c, #600c0c, #990000, #341111);
+  background: linear-gradient(-45deg, #7e0c0c, #600c0c, #990000, #a82121);
   padding: var(--padding);
   animation: FullTimeCardAnimation 10s ease infinite;
   background-size: 200% 200%;
   border-radius: 0.4rem;
-  filter: drop-shadow(0px 7px 57px #090808);
+  filter: drop-shadow(0px 7px 57px #000000);
 }
 .full-time-plan_card .button:hover {
   background-color: var(--black-color);
@@ -577,7 +577,7 @@ h2.hd__prest span::after {
   width: 100%;
   grid-row: 1/2;
   grid-column: 1/-1;
-  filter: drop-shadow(0px 7px 57px #090808);
+  filter: drop-shadow(0px 7px 57px #000000);
 }
 .mutant-arm_imgB {
   grid-column: 2/3;
@@ -586,7 +586,7 @@ h2.hd__prest span::after {
   background-size: cover;
   height: 25rem;
   width: 100%;
-  filter: drop-shadow(0px 7px 57px #090808);
+  filter: drop-shadow(0px 7px 57px #000000);
   background-position: 92%;
 }
 
@@ -831,7 +831,7 @@ h2.hd__prest span::after {
     align-self: flex-end;
     height: 20rem;
     background-position: center;
-    filter: drop-shadow(0px 7px 57px #090808);
+    filter: drop-shadow(0px 7px 57px #000000);
   }
   .nicks-wrapperA .nicks-photo,
   .nicks-wrapperB .nicks-photo {
