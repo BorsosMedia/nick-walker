@@ -447,7 +447,7 @@ h2.hd__prest span::after {
 .full-time-plan_card {
   background: linear-gradient(-45deg, #7e0c0c, #600c0c, #990000, #a82121);
   padding: var(--padding);
-  animation: FullTimeCardAnimation 10s ease infinite;
+  /*   animation: FullTimeCardAnimation 10s ease infinite; */
   background-size: 200% 200%;
   border-radius: 0.4rem;
   filter: drop-shadow(0px 7px 57px #000000);
@@ -457,20 +457,23 @@ h2.hd__prest span::after {
   color: var(--white-color);
 }
 .plan_card-animation {
-  animation: CardUpdate 2s ease-in-out alternate;
+  animation: CardUpdate 500ms ease-in-out alternate;
 }
 .button-animation_active {
-  animation: ButtonAnimation 2s ease-in-out;
+  animation: ButtonAnimation 500s ease-in-out;
 }
 @keyframes ButtonAnimation {
   0% {
     background-color: var(--white-color);
+    color: var(--primary-color);
   }
   50% {
     background-color: var(--black-color);
+    color: var(--white-color);
   }
   100% {
     background-color: var(--white-color);
+    color: var(--primary-color);
   }
 }
 @keyframes CardUpdate {
@@ -935,7 +938,7 @@ h2.hd__prest span::after {
     display: flex;
     opacity: 1;
     pointer-events: all;
-    gap: 1rem;
+    gap: 3rem;
   }
 
   .plans_pick-container > .button {
@@ -952,6 +955,7 @@ h2.hd__prest span::after {
     width: auto;
     color: var(--grey-color);
     font-size: clamp(1.8rem, 3vw, 4rem);
+    padding-inline: 0;
   }
   .dropdown_container .button:hover {
     color: var(--primary-color);
