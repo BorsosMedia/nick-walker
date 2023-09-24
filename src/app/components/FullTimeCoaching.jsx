@@ -6,6 +6,7 @@ import buttons from "../buttons.module.css";
 export const FullTimeCoaching = forwardRef(({}, ref) => {
   const [Plan, setPlan] = useState("a");
   const [Dropdown, setDropdown] = useState(false);
+  const [Animation, setAnimation] = useState(false);
 
   function HandlePlanDropdown() {
     setDropdown(!Dropdown);
@@ -13,8 +14,6 @@ export const FullTimeCoaching = forwardRef(({}, ref) => {
   useEffect(() => {
     setDropdown(false);
   }, [Plan]);
-
-  const [Animation, setAnimation] = useState();
 
   useEffect(() => {
     setAnimation(true);
@@ -124,7 +123,7 @@ export const FullTimeCoaching = forwardRef(({}, ref) => {
                 : "full-time-plan_card v-align-gap-1"
             }
           >
-            <h3 className="colored-white text-center">Full Time Plan</h3>
+            <h3 className="colored-white text-center">Full Time Coaching</h3>
             <p className="colored-grey">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
               consequuntur natus amet mollitia maiores? Debitis!
