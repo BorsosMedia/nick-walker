@@ -81,7 +81,9 @@ export default function Home() {
         </div>
       </section>
       <FullTimeCoaching ref={ref} />
-      <section className="block-content call-section_container mg_full-content">
+      <InquirySection />
+
+      {/* <section className="block-content call-section_container mg_full-content">
         <div className="call-section_wrapper v-align-gap-1">
           <h4 className="colored-white uppercase text-center">
             Book a Free 15-minute Consultation Call
@@ -104,7 +106,7 @@ export default function Home() {
             />
           </button>
         </div>
-      </section>
+      </section> */}
       <section className="block-content bloodwork_block max-gl-wdh">
         <div className="bloodwork_wrapper v-align-gap-1 v-align-center">
           <h2 className="colored-black uppercase">
@@ -161,7 +163,6 @@ export default function Home() {
         </div>
         <div className="nicks-wrapper nicks-wrapperC"></div>
       </section>
-      <InquirySection />
       <section className="block-content arm-guide max-gl-wdh v-align-gap-1">
         <h2 className="colored-white uppercase">
           MY <span className="colored-primary">MUTANT ARM</span> GUIDE
