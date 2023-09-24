@@ -137,11 +137,11 @@ export const FullTimeCoaching = forwardRef(({}, ref) => {
                     case "a":
                       return "399 ";
                     case "b":
-                      return "1000";
+                      return "1066.5 ";
                     case "c":
-                      return "1800 ";
+                      return "2014.5 ";
                     case "d":
-                      return "2450 ";
+                      return "3408 ";
                   }
                 })()}
               </h2>

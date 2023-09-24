@@ -119,7 +119,7 @@ export default function Home() {
             These blood tests allow me to have several diagnostics, address
             possible risks, and make dietary changes if necessary.
           </p>
-          <p className="colored-grey_dark">Starting at $999</p>
+          <p className="colored-grey_dark">Starting at $399</p>
           <a
             href=""
             className={`${button.fourty} ${button.sm_width} button colored-black h-align-left v-align-center`}

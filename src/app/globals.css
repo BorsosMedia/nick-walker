@@ -389,7 +389,7 @@ h2.hd__prest span::after {
   width: 100%;
   background-size: cover;
   padding: 1rem;
-  height: 25rem;
+  min-height: 25rem;
   filter: drop-shadow(0px 7px 57px #000000);
 }
 .bloodwork_wrapper > p {
