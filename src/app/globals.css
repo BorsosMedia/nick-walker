@@ -271,7 +271,7 @@ a {
 h2.hd__prest,
 h2.hd__prest span::before,
 h2.hd__prest span::after {
-  font-size: clamp(7rem, 23vw, 12rem);
+  font-size: clamp(6rem, 23vw, 12rem);
   line-height: 0.6;
 }
 /* h2.hd__prest span::before,
