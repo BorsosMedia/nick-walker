@@ -5,6 +5,7 @@
   right: 0;
   padding: 1.5rem 1rem;
   background: linear-gradient(180deg, #0e0e0e, transparent);
+  z-index: 99;
 }
 .header_wrapper {
   display: flex;
