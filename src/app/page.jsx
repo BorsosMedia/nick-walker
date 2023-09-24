@@ -13,6 +13,7 @@ import protein from "./assets/icons/train-process/protein-powder.svg";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import FullTimeCoaching from "./components/FullTimeCoaching";
+import InstagramWidget from "./components/InstagramWidget";
 export default function Home() {
   const ref = useRef();
   const HandleCTA = () => {
@@ -199,6 +200,7 @@ export default function Home() {
           </a>
         </div>
       </section>
+      <InstagramWidget />
       <Footer />
     </main>
   );
