@@ -14,9 +14,9 @@ import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import FullTimeCoaching from "./components/FullTimeCoaching";
 export default function Home() {
-  const planref = useRef();
+  const ref = useRef();
   const HandleCTA = () => {
-    planref.current?.scrollIntoView({ behavior: "smooth" });
+    ref.current?.scrollIntoView({ behavior: "smooth" });
   };
 
   return (
@@ -78,7 +78,7 @@ export default function Home() {
           <div className="nw_prss_img"></div>
         </div>
       </section>
-      <FullTimeCoaching planref={planref} />
+      <FullTimeCoaching ref={ref} />
       <section className="block-content call-section_container mg_full-content">
         <div className="call-section_wrapper v-align-gap-1">
           <h4 className="colored-white uppercase text-center">
@@ -157,9 +157,7 @@ export default function Home() {
             quod!
           </p>
         </div>
-        <div className="nicks-wrapper nicks-wrapperC">
-          <div className="nicks-photo"></div>
-        </div>
+        <div className="nicks-wrapper nicks-wrapperC"></div>
       </section>
       <InquirySection />
       <section className="block-content arm-guide max-gl-wdh v-align-gap-1">

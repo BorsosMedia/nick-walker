@@ -343,10 +343,12 @@ h2.hd__prest span::after {
 .nicks-hdns {
   display: none;
 }
+
 .nicks-wrapper .nicks-photo {
   display: grid;
   align-items: flex-end;
   background-repeat: no-repeat;
+  filter: drop-shadow(0px 7px 57px #090808);
 }
 
 .nicks-wrapperA {
@@ -446,6 +448,36 @@ h2.hd__prest span::after {
   animation: FullTimeCardAnimation 10s ease infinite;
   background-size: 200% 200%;
   border-radius: 0.4rem;
+  transition: 100ms ease-in-out;
+  filter: drop-shadow(0px 7px 57px #090808);
+}
+.plan_card-animation {
+  animation: CardUpdate 2s ease-in-out alternate;
+}
+.button-animation_active {
+  animation: ButtonAnimation 2s ease-in-out;
+}
+@keyframes ButtonAnimation {
+  0% {
+    background-color: var(--white-color);
+  }
+  50% {
+    background-color: var(--black-color);
+  }
+  100% {
+    background-color: var(--white-color);
+  }
+}
+@keyframes CardUpdate {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 .full-time-plan_card span {
   font-family: var(--font-ptsans);
@@ -540,14 +572,16 @@ h2.hd__prest span::after {
   width: 100%;
   grid-row: 1/2;
   grid-column: 1/-1;
+  filter: drop-shadow(0px 7px 57px #090808);
 }
 .mutant-arm_imgB {
   grid-column: 2/3;
   grid-row: 2/3;
-  background: url(./assets/images/arm-guideb.jpg);
+  background: url(./assets/images/arm-guideB.jpg);
   background-size: cover;
   height: 25rem;
   width: 100%;
+  filter: drop-shadow(0px 7px 57px #090808);
   background-position: 92%;
 }
 
@@ -792,6 +826,7 @@ h2.hd__prest span::after {
     align-self: flex-end;
     height: 20rem;
     background-position: center;
+    filter: drop-shadow(0px 7px 57px #090808);
   }
   .nicks-wrapperA .nicks-photo,
   .nicks-wrapperB .nicks-photo {
@@ -897,8 +932,7 @@ h2.hd__prest span::after {
     pointer-events: all;
     gap: 1rem;
   }
-  .hd__trns {
-  }
+
   .plans_pick-container > .button {
     display: none;
   }

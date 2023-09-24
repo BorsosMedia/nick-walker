@@ -1,8 +1,9 @@
 "use client";
-import { useState, useEffect } from "react";
+import { useState, useEffect, forwardRef } from "react";
 import { HiChevronDown } from "react-icons/hi";
 import buttons from "../buttons.module.css";
-function FullTimeCoaching({ planref }) {
+
+export const FullTimeCoaching = forwardRef(({}, ref) => {
   const [Plan, setPlan] = useState("a");
   const [Dropdown, setDropdown] = useState(false);
 
@@ -25,7 +26,7 @@ function FullTimeCoaching({ planref }) {
   return (
     <section
       className="block-content max-gl-wdh training_wrapper v-align-gap-1"
-      planref={planref}
+      ref={ref}
     >
       <h2 className="colored-white uppercase">Full Time Custom Training</h2>
       <div className="full-time_container v-align-gap-1">
@@ -116,7 +117,13 @@ function FullTimeCoaching({ planref }) {
           </div>
         </div>
         <div className="v-align-gap-1 plan-card_wrapper">
-          <div className="full-time-plan_card v-align-gap-1">
+          <div
+            className={
+              Animation
+                ? "full-time-plan_card plan_card-animation v-align-gap-1"
+                : "full-time-plan_card v-align-gap-1"
+            }
+          >
             <h3 className="colored-white text-center">Full Time Plan</h3>
             <p className="colored-grey">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
@@ -155,7 +162,11 @@ function FullTimeCoaching({ planref }) {
               </span>
             </div>
             <button
-              className={`${buttons.primary} ${buttons.secondary} button `}
+              className={
+                Animation
+                  ? `${buttons.primary} ${buttons.secondary} button button-animation_active`
+                  : `${buttons.primary} ${buttons.secondary} button `
+              }
             >
               Purchase Now
             </button>
@@ -167,11 +178,7 @@ function FullTimeCoaching({ planref }) {
           </div>
         </div>
         <h2 className="hd__trns uppercase colored-grey_dark">
-          <span
-            className={
-              Animation ? " txt_training anm_txt-active" : "txt_training"
-            }
-          >
+          <span className=" txt_training">
             {(() => {
               switch (Plan) {
                 case "a":
@@ -196,6 +203,5 @@ function FullTimeCoaching({ planref }) {
       </div>
     </section>
   );
-}
-
+});
 export default FullTimeCoaching;
