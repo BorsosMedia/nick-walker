@@ -427,7 +427,7 @@ h2.hd__prest span::after {
   right: 0;
   top: 66px;
   pointer-events: none;
-
+  z-index: 99;
   /*   height: 0%;
   overflow: hidden; */
 }
