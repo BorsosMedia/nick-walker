@@ -125,8 +125,11 @@ export const FullTimeCoaching = forwardRef(({}, ref) => {
           >
             <h3 className="colored-white text-center">Full Time Coaching</h3>
             <p className="colored-grey">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
-              consequuntur natus amet mollitia maiores? Debitis!
+              We will develop a personalized workout and nutrition plan that can
+              help you achieve your fitness goals. I will be there to provide
+              guidance and motivation, focusing on your mental strength as well
+              as your physique. We will be making adjustments as we go to ensure
+              we are on the right path.
             </p>
             <div className="h-align-gap-005 v-align-end">
               <h2 className="colored-white">
@@ -170,9 +173,12 @@ export const FullTimeCoaching = forwardRef(({}, ref) => {
               Purchase Now
             </button>
             <ul className="colored-grey plan-ul">
-              <li>Lorem ipsum dolor, sit amet consectetur adipisicing</li>
-              <li>Lorem ipsum dolor, sit amet consectetur</li>
-              <li>Lorem ipsum dolor, sit amet</li>
+              <li>Frequent Check-Ins (Email/SMS)</li>
+              <li>Customized Training and Nutrition Plan</li>
+              <li>Cutting-Edge PED Programming</li>
+              <li>Health Monitoring Through PEDs</li>
+              <li>Analysis of Blood Work Readings</li>
+              <li>Includes Initial Phone Consultation</li>
             </ul>
           </div>
         </div>

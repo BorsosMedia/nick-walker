@@ -47,12 +47,14 @@ export default function Home() {
             I'm<span className="colored-primary hd__anm"></span>
           </h2>
           <p className="colored-grey">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam
-            odit, rerum soluta.
+            Achieving your goals is an everyday job. I say keep dreaming and
+            believing in yourself and your mind will help you achieve great
+            things.
           </p>
           <p className="colored-grey">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam
-            odit, rerum soluta fugit
+            As a former Arnold Classic Champion, I know what it takes to
+            transform your life. Believe in yourself and I’ll do my best to help
+            you transform yours.
           </p>
           <div className="train-process v-align-gap-1 m-top-1">
             <h4 className="colored-grey uppercase">
@@ -65,15 +67,15 @@ export default function Home() {
               </div>
               <div className="v-align-gap-005 h-justify-center-g">
                 <Image src={dumbbell} />
-                <p className="colored-grey">Loremp Ipsum</p>
+                <p className="colored-grey">Hardcore Training</p>
               </div>
               <div className="v-align-gap-005 h-justify-center-g">
                 <Image src={pullUp} />
-                <p className="colored-grey">Ipsum Lorem</p>
+                <p className="colored-grey">Strong Determination</p>
               </div>
               <div className="v-align-gap-005 h-justify-center-g">
                 <Image src={protein} />
-                <p className="colored-grey">Lorem Ipsum</p>
+                <p className="colored-grey">Top Nutrition</p>
               </div>
             </div>
           </div>
@@ -110,17 +112,24 @@ export default function Home() {
       <section className="block-content bloodwork_block max-gl-wdh">
         <div className="bloodwork_wrapper v-align-gap-1 v-align-center">
           <h2 className="colored-black uppercase">
-            Comprehensive <br />
-            <span className="colored-primary">Bloodwork</span> Tests
+            Need Help <br />
+            With <span className="colored-primary">Blood Work?</span>
           </h2>
           <p className="colored-black">
-            I want to have a full picture of your health, that’s why I have
-            partnered with the best professionals to ensure your maximum power
-            everyday.
+            I’m all for taking a comprehensive approach to your fitness routine.
+            That means going beyond the surface to understand how your body
+            works.
           </p>
           <p className="colored-black">
-            These blood tests allow me to have several diagnostics, address
-            possible risks, and make dietary changes if necessary.
+            Blood work analysis provides key information that can help me
+            develop your workout routine and adjust your nutrition plan to
+            address any health concerns.
+          </p>
+          <p className="colored-black">
+            With my experience and in collaboration with healthcare
+            professionals, I’m in a unique position to help interpret your blood
+            work results to optimize your performance while preserving your
+            health.
           </p>
           <p className="colored-black bold">Starting at $399</p>
           <a
@@ -145,20 +154,24 @@ export default function Home() {
 
         <div className="nicks-wrapper nicks-wrapperA v-align-gap-005">
           <div className="nicks-photo">
-            <h5 className="colored-white">Ipsum Lorem</h5>
+            <h5 className="colored-white">
+              10 Years of Competition Experience
+            </h5>
           </div>
           <p className="colored-grey">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae,
-            quod!
+            I began competing in 2013 at a young age and never looked back. I
+            strive to push the boundaries of what you can do in the sport as my
+            dedication remains unwavering.
           </p>
         </div>
         <div className="nicks-wrapper nicks-wrapperB v-align-gap-005">
           <div className="nicks-photo">
-            <h5 className="colored-white">Lorem Ipsum</h5>
+            <h5 className="colored-white">2021 Arnold Classic Winner</h5>
           </div>
           <p className="colored-grey">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae,
-            quod!
+            I came in first place in 2021’s Arnold Classic Ohio and came in
+            third place as 2022’s Mr. Olympia, the two most prestigious
+            bodybuilding competitions in the world.
           </p>
         </div>
         <div className="nicks-wrapper nicks-wrapperC"></div>

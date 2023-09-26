@@ -8,9 +8,8 @@ function InquirySection() {
           Unsure where to start?
         </h4>
         <p className="colored-white">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
-          blanditiis deleniti qui nam nemo nihil voluptates itaque dolores
-          tempora soluta.
+          Fill out the form below with your information and any question you may
+          have. I’ll get in touch with you as soon as possible.
         </p>
       </div>
     </section>

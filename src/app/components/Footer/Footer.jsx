@@ -8,13 +8,34 @@ function Footer() {
     <footer className={styles.footer_wrapper}>
       <div className={`${styles.footer_container} v-align-gap-1`}>
         <div className="h-align-gap-1">
-          <AiFillYoutube className="icon--sm footer--icon" />
-          <BsInstagram className="icon--sm footer--icon" />
-          <BiLogoTiktok className="icon--sm footer--icon" />
+          <a
+            href="https://www.youtube.com/channel/UCotK4Y3BtGTdt7qzFR3vI1A"
+            target="_blank"
+          >
+            <AiFillYoutube className="icon--sm footer--icon" />
+          </a>
+          <a
+            href="https://www.instagram.com/nick_walker39/?hl=en"
+            target="_blank"
+          >
+            <BsInstagram className="icon--sm footer--icon" />
+          </a>
+
+          <a
+            href="https://www.tiktok.com/@nickwalkerifbbpro?lang=en"
+            target="_blank"
+          >
+            <BiLogoTiktok className="icon--sm footer--icon" />
+          </a>
         </div>
         <p className="colored-white text-center">
           Website developed and design by{" "}
-          <span className="bold colored-primary">Borsos Media</span>
+          <span
+            className="bold colored-primary"
+            style={{ textDecoration: "underline" }}
+          >
+            Borsos Media
+          </span>
         </p>
         <p className="colored-white text-center">
           Nicholas Walker - All Rights Reserved
