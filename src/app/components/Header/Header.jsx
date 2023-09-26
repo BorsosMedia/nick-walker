@@ -1,6 +1,6 @@
 import styles from "./header.module.css";
 import Image from "next/image";
-import Logo from "../../assets/images/logo.jpg";
+import Logo from "../../assets/images/logo.png";
 function Header() {
   return (
     <header className={`${styles.header_container} max-gl-wdh`}>
