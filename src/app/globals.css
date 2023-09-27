@@ -1028,8 +1028,8 @@ body {
     top: 1rem;
   }
   .train-process {
-    height: 100%;
     align-content: baseline;
+    align-items: baseline;
     grid-row: 3/11;
   }
   .train-process > div {
