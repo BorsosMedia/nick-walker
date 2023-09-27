@@ -132,7 +132,7 @@ export default function Home() {
             <div className="presentation-img "></div>
           </div>
           <div className="v-align-gap-1 description">
-            <h5 className="colored-white ">Who Can Train With Me?</h5>
+            <h5 className="colored-white uppercase">Who Can Train With Me?</h5>
             <ul className="v-align-gap-005">
               <li className="colored-grey">Beginners</li>
               <li className="colored-grey">Fitness Enthusiasts</li>
