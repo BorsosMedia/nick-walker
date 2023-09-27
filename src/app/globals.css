@@ -912,10 +912,6 @@ body {
   .train-process {
     grid-column: 1/3;
   }
-  .train-process > div {
-    justify-content: space-between !important;
-    width: 80%;
-  }
 
   .train-process h4 {
     display: block;
@@ -1031,6 +1027,17 @@ body {
     position: sticky;
     top: 1rem;
   }
+  .train-process {
+    height: 100%;
+    align-content: baseline;
+    grid-row: 3/11;
+  }
+  .train-process > div {
+    justify-content: space-between !important;
+    width: 80%;
+    position: sticky;
+    top: 10rem;
+  }
 }
 
 @media screen and (min-width: 1193px) {
@@ -1046,11 +1053,6 @@ body {
 
   .block-content {
     padding: 3rem 6rem;
-  }
-
-  .train-process {
-    position: sticky;
-    top: 11rem;
   }
 
   .prest_grid {

@@ -57,9 +57,7 @@ export default function Home() {
             you transform yours.
           </p>
           <div className="train-process v-align-gap-1 m-top-1">
-            <h4 className="colored-grey uppercase">
-              how do i like to proceed when it comes to training?
-            </h4>
+            <h4 className="colored-grey uppercase">HOW DO I TRAIN?</h4>
             <div className="h-align-gap-1 h-justify-between v-align-center h-grid-auto">
               <div className="v-align-gap-005 h-justify-center-g">
                 <Image src={mind} />
@@ -125,12 +123,12 @@ export default function Home() {
             develop your workout routine and adjust your nutrition plan to
             address any health concerns.
           </p>
-          <p className="colored-black">
+          {/*       <p className="colored-black">
             With my experience and in collaboration with healthcare
             professionals, I’m in a unique position to help interpret your blood
             work results to optimize your performance while preserving your
             health.
-          </p>
+          </p> */}
           <p className="colored-black bold">Starting at $399</p>
           <a
             href=""
@@ -160,8 +158,8 @@ export default function Home() {
           </div>
           <p className="colored-grey">
             I began competing in 2013 at a young age and never looked back. I
-            strive to push the boundaries of what you can do in the sport as my
-            dedication remains unwavering.
+            strive to push the boundaries of what you can do in bodybuilding as
+            my dedication remains unwavering.
           </p>
         </div>
         <div className="nicks-wrapper nicks-wrapperB v-align-gap-005">
@@ -170,7 +168,7 @@ export default function Home() {
           </div>
           <p className="colored-grey">
             I came in first place in 2021’s Arnold Classic Ohio and came in
-            third place as 2022’s Mr. Olympia, the two most prestigious
+            third place at 2022’s Mr. Olympia, the two most prestigious
             bodybuilding competitions in the world.
           </p>
         </div>
@@ -185,8 +183,8 @@ export default function Home() {
             <div className="v-align-gap-005">
               <h3 className="colored-white">1st</h3>
               <p className="colored-grey">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
-                vitae temporibus hic numquam, alias velit?
+                Unlock the knowledge necessary to explode your arm gains in the
+                gym.
               </p>
             </div>
             <div className="v-align-gap-005">

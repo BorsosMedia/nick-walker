@@ -128,8 +128,7 @@ export const FullTimeCoaching = forwardRef(({}, ref) => {
               We will develop a personalized workout and nutrition plan that can
               help you achieve your fitness goals. I will be there to provide
               guidance and motivation, focusing on your mental strength as well
-              as your physique. We will be making adjustments as we go to ensure
-              we are on the right path.
+              as your physique.
             </p>
             <div className="h-align-gap-005 v-align-end">
               <h2 className="colored-white">
@@ -176,8 +175,8 @@ export const FullTimeCoaching = forwardRef(({}, ref) => {
               <li>Frequent Check-Ins (Email/SMS)</li>
               <li>Customized Training and Nutrition Plan</li>
               <li>Cutting-Edge PED Programming</li>
-              <li>Health Monitoring Through PEDs</li>
-              <li>Analysis of Blood Work Readings</li>
+              <li>Health Monitoring For Well Being</li>
+              <li>Constant Motivation and Support</li>
               <li>Includes Initial Phone Consultation</li>
             </ul>
           </div>
