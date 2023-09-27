@@ -27,18 +27,38 @@ export default function Home() {
       <Header />
       <section className={`${styles.hero_section}  block-content `}>
         <div className={`${styles.hero_wrapper}  v-align-gap-1`}>
-          <p className="colored-grey ">
-            IT TAKES A LOT TO{" "}
-            <span className="colored-primary bold">BECOME A MUTANT</span>
-          </p>
-          <h1 className="colored-white">ARE YOU READY?</h1>
-          <button
-            onClick={HandleCTA}
-            className={`${button.primary} ${button.sm_width} ${button.cta_action} button`}
-          >
-            Start Now
-            <HiArrowNarrowDown className={button.cta_icon} />
-          </button>
+          <div className="v-align-gap-1">
+            <p className="colored-grey ">
+              IT TAKES A LOT TO{" "}
+              <span className="colored-primary bold">BECOME A MUTANT</span>
+            </p>
+            <h1 className="colored-white">ARE YOU READY?</h1>
+            <button
+              onClick={HandleCTA}
+              className={`${button.primary} ${button.sm_width} ${button.cta_action} button`}
+            >
+              Start Now
+              <HiArrowNarrowDown className={button.cta_icon} />
+            </button>
+          </div>
+          <div className={`${styles.nicks_achievements} v-align-gap-1`}>
+            {/*             <div className="h-alig-gap-1"> */}
+            <h5
+              className="colored-grey bold uppercase"
+              style={{ textAlign: "right" }}
+            >
+              "I SHOW MY STRENGTHS AND MY WEAKNESSES. <br />
+              THAT’S IT."
+            </h5>
+            {/*        </div> */}
+
+            {/*   <div className="h-alig-gap-1">
+              {" "}
+              <h5 className="colored-white bold">
+                Arnold Classic Champion 2021
+              </h5>
+            </div> */}
+          </div>
         </div>
         <div className={`${styles.nicks_acc} `}></div>
       </section>
@@ -58,31 +78,30 @@ export default function Home() {
             you transform yours.
           </p>
           <div className="train-process v-align-gap-1 m-top-1">
-            <h4 className="colored-grey uppercase">
-              Lorem ipsum dolor sit amet.
-            </h4>
+            <h4 className="colored-grey uppercase">What Moves My Training?</h4>
             <div className="h-align-gap-1 h-justify-between v-align-center h-grid-auto">
               <div className="v-align-gap-005 h-justify-center-g">
                 <Image src={mind} />
-                <p className="colored-grey">Mind-First</p>
+                <p className="colored-grey">Control</p>
               </div>
               <div className="v-align-gap-005 h-justify-center-g">
                 <Image src={dumbbell} />
-                <p className="colored-grey">Hardcore Training</p>
+                <p className="colored-grey">Determination</p>
               </div>
               <div className="v-align-gap-005 h-justify-center-g">
                 <Image src={pullUp} />
-                <p className="colored-grey">Strong Determination</p>
+                <p className="colored-grey">Consistency</p>
               </div>
               <div className="v-align-gap-005 h-justify-center-g">
                 <Image src={protein} />
-                <p className="colored-grey">Top Nutrition</p>
+                <p className="colored-grey">Nutrition</p>
               </div>
             </div>
           </div>
           <div className="nw_prss_img"></div>
         </div>
       </section>
+      <FullTimeCoaching ref={ref} />
       <section className="block-content max-gl-wdh v-align-gap-2 m-top-1">
         <div className="v-align-gap-1 presentation-heading">
           <h2 className="colored-white">
@@ -93,61 +112,54 @@ export default function Home() {
             <span className="colored-primary">available to you</span>
           </h5>
           <p className="colored-grey">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
-            maximus vel orci a tristique. Curabitur pellentesque nisl at arcu
-            convallis sagittis. Morbi eleifend leo eget condimentum
-            sollicitudin.
+            You’re not alone in this journey. I will be there to keep you
+            accountable, motivated and on the right path. Once we start working
+            together, your transformation begins as we watch your progress
+            unfold.
           </p>
-          <p className="colored-grey bold">Starting at $399</p>
+          {/*     <p className="colored-grey bold">Starting at $399</p>  */}
         </div>
         <div className="v-align-gap-1 presentation-wrapper">
           <div className="v-align-gap-1 workouts">
-            <h5 className="colored-white uppercase">
-              Lorem-Planned <br className="presentation-break" />
-              Workouts
-            </h5>
+            <h5 className="colored-white uppercase">CUSTOMIZED WORKOUTS</h5>
             <div className="presentation-img "></div>
           </div>
           <div className="v-align-gap-1 nutrition">
             <h5 className="colored-white uppercase">
-              Research-Based <br className="presentation-break" />
-              Nutrition
+              RESEARCH-BASED NUTRITION
             </h5>
             <div className="presentation-img"></div>
           </div>
           <div className="v-align-gap-1 communication">
-            <h5 className="colored-white uppercase">
-              Direct <br className="presentation-break" />
-              Communication
-            </h5>
+            <h5 className="colored-white uppercase">DIRECT COMMUNICATION</h5>
             <div className="presentation-img "></div>
           </div>
           <div className="v-align-gap-1 description">
-            <h5 className="colored-white">Who is this targeted to?</h5>
-            <ul>
-              <li className="colored-grey">Lorem ipsum dolor sit amet.</li>
-              <li className="colored-grey">Lorem ipsum dolor sit amet.</li>
-              <li className="colored-grey">Lorem ipsum dolor sit amet.</li>
-              <li className="colored-grey">Lorem ipsum dolor sit amet.</li>
+            <h5 className="colored-white ">Who Can Train With Me?</h5>
+            <ul className="v-align-gap-005">
+              <li className="colored-grey">Beginners</li>
+              <li className="colored-grey">Fitness Enthusiasts</li>
+              <li className="colored-grey">Bodybuilders</li>
+              <li className="colored-grey">Elite Athletes</li>
             </ul>
             <p className="colored-grey">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
-              aliquam cumque laborum iure distinctio debitis!
+              You don’t need experience to transform your life. As long as
+              you’re committed, I will guide you through this process to achieve
+              real results.
             </p>
           </div>
         </div>
       </section>
-      <FullTimeCoaching ref={ref} />
-      <InquirySection />
 
-      {/* <section className="block-content call-section_container mg_full-content">
+      <section className="block-content call-section_container mg_full-content">
         <div className="call-section_wrapper v-align-gap-1">
           <h4 className="colored-white uppercase text-center">
-            Book a Free 15-minute Consultation Call
+            Book a Free 15 Minute Consultation
           </h4>
           <p className="colored-grey">
-            Fill out the form below with your information and any questions you
-            may have, I’ll get in touch with you as soon as posible
+            Still have a lot of questions? Don’t sweat it. Book a 15 minute
+            consultation for free and I will try to clear your doubts. Let me
+            know what’s on your mind.
           </p>
           <button
             className={`${button.tertiary} button h-align-gap-1 v-align-center`}
@@ -163,7 +175,7 @@ export default function Home() {
             />
           </button>
         </div>
-      </section> */}
+      </section>
       <section className="block-content bloodwork_block max-gl-wdh">
         <div className="bloodwork_wrapper v-align-gap-1 v-align-center">
           <h2 className="colored-black uppercase">
@@ -188,28 +200,31 @@ export default function Home() {
           </p> */}
           <p className="colored-black bold">Starting at $399</p>
           <a
-            href=""
+            href="https://payments.walkernationcoaching.com/otp-blood-work"
+            target="_blank"
             className={`${button.fourty} ${button.sm_width} button colored-black h-align-left v-align-center`}
           >
-            Learn More <FaArrowRightLong className="icon--sm  colored-black" />
+            Start Now
+            <FaArrowRightLong className="icon--sm  colored-black" />
           </a>
         </div>
       </section>
+
       <section className="block-content nick__acc-grid max-gl-wdh">
         <h2 className="colored-white uppercase">
-          WORK SO HARD THAT YOU DON’T HAVE OTHER OPTION BUT TO{" "}
-          <span className="colored-primary">MAKE IT</span>
+          Results Speak for Themselves When You
+          <span className="colored-primary">work hard</span>
         </h2>
         <div className="nicks-hdns">
-          <h2 className="colored-primary uppercase">Make it</h2>
-          <h2 className="colored-primary uppercase">Make it</h2>
-          <h2 className="colored-primary uppercase">Make it</h2>
-          <h2 className="colored-primary uppercase">Make it</h2>
+          <h2 className="colored-primary uppercase">work hard</h2>
+          <h2 className="colored-primary uppercase">work hard</h2>
+          <h2 className="colored-primary uppercase">work hard</h2>
+          <h2 className="colored-primary uppercase">work hard</h2>
         </div>
 
         <div className="nicks-wrapper nicks-wrapperA v-align-gap-005">
           <div className="nicks-photo">
-            <h5 className="colored-white">10 Years Competing</h5>
+            <h5 className="colored-white uppercase">10 Years Competing</h5>
           </div>
           <p className="colored-grey">
             I began competing in 2013 at a young age and never looked back. I
@@ -219,7 +234,9 @@ export default function Home() {
         </div>
         <div className="nicks-wrapper nicks-wrapperB v-align-gap-005">
           <div className="nicks-photo">
-            <h5 className="colored-white">2021 Arnold Classic Winner</h5>
+            <h5 className="colored-white uppercase">
+              2021 Arnold Classic Winner
+            </h5>
           </div>
           <p className="colored-grey">
             I came in first place in 2021’s Arnold Classic Ohio and came in
@@ -229,6 +246,8 @@ export default function Home() {
         </div>
         <div className="nicks-wrapper nicks-wrapperC"></div>
       </section>
+      <InquirySection />
+
       <section className="block-content arm-guide max-gl-wdh v-align-gap-1">
         <h2 className="colored-white uppercase">
           MY <span className="colored-primary">MUTANT ARM</span> GUIDE
@@ -243,17 +262,19 @@ export default function Home() {
               </p>
             </div>
             <div className="v-align-gap-005">
-              <h3 className="colored-white">2st</h3>
+              <h3 className="colored-white">2nd</h3>
               <p className="colored-grey">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
-                vitae temporibus hic numquam, alias velit?
+                Discover how important warming up and supplementation are to
+                train safely and prevent injuries.
               </p>
             </div>
 
             <div className="v-align-gap-005">
               <h4 className="colored-white">3rd</h4>
               <p className="colored-grey">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Learn about the different methods of building muscle and adjust
+                your volume and repetition approach to make the most out of
+                them.
               </p>
             </div>
           </div>
@@ -264,7 +285,7 @@ export default function Home() {
             href=""
             className={`${button.primary} ${button.secondary} ${button.cta_action} button text-center `}
           >
-            Start Now
+            Learn More
           </a>
         </div>
       </section>

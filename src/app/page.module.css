@@ -16,7 +16,22 @@
 .nicks_acc {
   display: none;
 }
-
+.nicks_achievements {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .hero_wrapper {
+    justify-content: space-between;
+    grid-auto-flow: column;
+    align-items: center;
+  }
+  .hero_section {
+    justify-content: initial;
+  }
+  .nicks_achievements {
+    display: grid;
+  }
+}
 @media screen and (min-width: 1024px) {
   .hero_section {
     background-position: initial;
@@ -26,7 +41,7 @@
 
     background-size: cover, cover;
     background-repeat: no-repeat;
-    justify-content: initial;
+
     padding: 0;
   }
   .hero_wrapper {

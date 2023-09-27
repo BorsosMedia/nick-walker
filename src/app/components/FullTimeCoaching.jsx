@@ -92,19 +92,23 @@ export const FullTimeCoaching = forwardRef(({}, ref) => {
         </div>
         <div className="v-align-gap-2 plans_faq">
           <div className="v-align-gap-005">
-            <h6 className="colored-grey_dark">
-              Can I take breaks between trainings?
+            <h6 className="colored-grey_dark uppercase">
+              Let’s Talk About Purpose
             </h6>
             <p className="colored-grey_dark">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
-              vitae temporibus hic numquam, alias velit?
+              Your health and fitness are priceless. Whether you’re aiming to
+              shed pounds, build muscle, or boost your endurance, I’ve got you
+              covered.
             </p>
           </div>
           <div className="v-align-gap-005">
-            <h6 className="colored-grey_dark">Lorem ipsum dolor sit amet</h6>
+            <h6 className="colored-grey_dark uppercase">
+              We’re Building a Lifestyle
+            </h6>
             <p className="colored-grey_dark">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
-              vitae temporibus hic numquam, alias velit?
+              With my approach, every workout, every meal plan, and every piece
+              of advice I give you will be focused on helping you achieve peak
+              form.
             </p>
           </div>
           {/*    <div className="v-align-gap-005">
@@ -125,7 +129,7 @@ export const FullTimeCoaching = forwardRef(({}, ref) => {
                 : "full-time-plan_card v-align-gap-1"
             }
           >
-            <h3 className="colored-white text-center">Full Time Coaching</h3>
+            <h3 className="colored-white text-center">Training Plan</h3>
             <p className="colored-grey">
               We will develop a personalized workout and nutrition plan that can
               help you achieve your fitness goals. I will be there to provide
@@ -138,13 +142,13 @@ export const FullTimeCoaching = forwardRef(({}, ref) => {
                 {(() => {
                   switch (Plan) {
                     case "a":
-                      return "399 ";
+                      return "395.00";
                     case "b":
-                      return "1066.5 ";
+                      return "1066.50";
                     case "c":
-                      return "2014.5 ";
+                      return "2014.50";
                     case "d":
-                      return "3408 ";
+                      return "3408.00";
                   }
                 })()}
               </h2>
@@ -164,7 +168,20 @@ export const FullTimeCoaching = forwardRef(({}, ref) => {
                 })()}
               </span>
             </div>
-            <button
+            <a
+              href={(() => {
+                switch (Plan) {
+                  case "a":
+                    return "https://payments.walkernationcoaching.com/ftc-monthly";
+                  case "b":
+                    return "https://payments.walkernationcoaching.com/ftc-3-months";
+                  case "c":
+                    return "https://payments.walkernationcoaching.com/ftc-6-months";
+                  case "d":
+                    return "https://payments.walkernationcoaching.com/ftc-annual";
+                }
+              })()}
+              target="_blank"
               className={
                 Animation
                   ? `${buttons.primary} ${buttons.secondary} button button-animation_active`
@@ -172,14 +189,12 @@ export const FullTimeCoaching = forwardRef(({}, ref) => {
               }
             >
               Purchase Now
-            </button>
+            </a>
             <ul className="colored-grey plan-ul">
               <li>Frequent Check-Ins (Email/SMS)</li>
               <li>Customized Training and Nutrition Plan</li>
-              <li>Cutting-Edge PED Programming</li>
-              <li>Health Monitoring For Well Being</li>
+              <li>Health Monitoring for Well-Being</li>
               <li>Constant Motivation and Support</li>
-              <li>Includes Initial Phone Consultation</li>
             </ul>
           </div>
         </div>
