@@ -58,7 +58,9 @@ export default function Home() {
             you transform yours.
           </p>
           <div className="train-process v-align-gap-1 m-top-1">
-            {/*   <h4 className="colored-grey uppercase">HOW DO I TRAIN?</h4> */}
+            <h4 className="colored-grey uppercase">
+              Lorem ipsum dolor sit amet.
+            </h4>
             <div className="h-align-gap-1 h-justify-between v-align-center h-grid-auto">
               <div className="v-align-gap-005 h-justify-center-g">
                 <Image src={mind} />
