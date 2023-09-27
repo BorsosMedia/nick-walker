@@ -689,6 +689,10 @@ body {
 .icon--sm.footer--icon {
   color: var(--white-color);
 }
+.icon--sm.footer--icon:hover {
+  color: var(--primary-color);
+  fill: var(--primary-color);
+}
 
 /*  */
 
@@ -910,6 +914,7 @@ body {
     grid-column: 2/3;
     grid-row: auto;
   }
+
   .plans_faq .v-align-gap-005 {
     gap: 1rem;
   }
@@ -1034,6 +1039,12 @@ body {
   .full-time_container h2 {
     text-align: right;
   }
+
+  .full-time_container h2:not(.full-time-plan_card h2) {
+    align-self: center;
+    transform: translateY(30px);
+  }
+
   .full-time_container {
     grid-template-columns: 30% 1fr 30%;
     grid-template-rows: min-content 1fr;
@@ -1059,7 +1070,7 @@ body {
     grid-column: 2/3;
     grid-row: 2/3;
   }
-  .full-time_container h2 {
+  .full-time_container .hd__trns {
     grid-row: 2/3;
     grid-column: 3/3;
     position: sticky;
@@ -1172,7 +1183,7 @@ body {
   }
 
   .train-process > div {
-    width: 95%;
+    width: 100%;
   }
 }
 @media screen and (min-width: 1580px) {

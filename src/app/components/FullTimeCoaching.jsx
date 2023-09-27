@@ -105,7 +105,7 @@ export const FullTimeCoaching = forwardRef(({}, ref) => {
               vitae temporibus hic numquam, alias velit?
             </p>
           </div>
-          <div className="v-align-gap-005">
+          {/*    <div className="v-align-gap-005">
             <h6 className="colored-grey_dark">
               Can I take breaks between trainings?
             </h6>
@@ -113,7 +113,7 @@ export const FullTimeCoaching = forwardRef(({}, ref) => {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
               vitae temporibus hic numquam, alias velit?
             </p>
-          </div>
+          </div> */}
         </div>
         <div className="v-align-gap-1 plan-card_wrapper">
           <div
