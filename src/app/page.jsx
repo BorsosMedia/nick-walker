@@ -24,8 +24,8 @@ export default function Home() {
     <main className={`main-wrapper`}>
       <div className="svc-cntr"> </div>
       <Header />
-      <section className={`${styles.hero_section} block-content max-gl-wdh`}>
-        <div className={`${styles.hero_wrapper} max-gl-wdh v-align-gap-1`}>
+      <section className={`${styles.hero_section}  block-content `}>
+        <div className={`${styles.hero_wrapper}  v-align-gap-1`}>
           <p className="colored-grey ">
             IT TAKES A LOT TO{" "}
             <span className="colored-primary bold">BECOME A MUTANT</span>
@@ -57,7 +57,7 @@ export default function Home() {
             you transform yours.
           </p>
           <div className="train-process v-align-gap-1 m-top-1">
-            <h4 className="colored-grey uppercase">HOW DO I TRAIN?</h4>
+            {/*   <h4 className="colored-grey uppercase">HOW DO I TRAIN?</h4> */}
             <div className="h-align-gap-1 h-justify-between v-align-center h-grid-auto">
               <div className="v-align-gap-005 h-justify-center-g">
                 <Image src={mind} />
@@ -78,6 +78,60 @@ export default function Home() {
             </div>
           </div>
           <div className="nw_prss_img"></div>
+        </div>
+      </section>
+      <section className="block-content max-gl-wdh v-align-gap-2 m-top-1">
+        <div className="v-align-gap-1 presentation-heading">
+          <h2 className="colored-white">
+            WALKER NATION, a coaching plan by NICK WALKER
+          </h2>
+          <h5 className="colored-grey">
+            Everything that has worked for me, now{" "}
+            <span className="colored-primary">available to you</span>
+          </h5>
+          <p className="colored-grey">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+            maximus vel orci a tristique. Curabitur pellentesque nisl at arcu
+            convallis sagittis. Morbi eleifend leo eget condimentum
+            sollicitudin.
+          </p>
+          <p className="colored-grey bold">Starting at $399</p>
+        </div>
+        <div className="v-align-gap-1 presentation-wrapper">
+          <div className="v-align-gap-1 workouts">
+            <h5 className="colored-white uppercase">
+              Lorem-Planned <br className="presentation-break" />
+              Workouts
+            </h5>
+            <div className="presentation-img "></div>
+          </div>
+          <div className="v-align-gap-1 nutrition">
+            <h5 className="colored-white uppercase">
+              Research-Based <br className="presentation-break" />
+              Nutrition
+            </h5>
+            <div className="presentation-img"></div>
+          </div>
+          <div className="v-align-gap-1 communication">
+            <h5 className="colored-white uppercase">
+              Direct <br className="presentation-break" />
+              Communication
+            </h5>
+            <div className="presentation-img "></div>
+          </div>
+          <div className="v-align-gap-1 description">
+            <h5 className="colored-white">Who is this targeted to?</h5>
+            <ul>
+              <li className="colored-grey">Lorem ipsum dolor sit amet.</li>
+              <li className="colored-grey">Lorem ipsum dolor sit amet.</li>
+              <li className="colored-grey">Lorem ipsum dolor sit amet.</li>
+              <li className="colored-grey">Lorem ipsum dolor sit amet.</li>
+            </ul>
+            <p className="colored-grey">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
+              aliquam cumque laborum iure distinctio debitis!
+            </p>
+          </div>
         </div>
       </section>
       <FullTimeCoaching ref={ref} />
@@ -152,9 +206,7 @@ export default function Home() {
 
         <div className="nicks-wrapper nicks-wrapperA v-align-gap-005">
           <div className="nicks-photo">
-            <h5 className="colored-white">
-              10 Years of Competition Experience
-            </h5>
+            <h5 className="colored-white">10 Years Competing</h5>
           </div>
           <p className="colored-grey">
             I began competing in 2013 at a young age and never looked back. I

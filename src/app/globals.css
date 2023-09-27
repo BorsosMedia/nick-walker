@@ -14,7 +14,7 @@
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grays e;
+  -moz-osx-font-smoothing: grays;
   -webkit-text-size-adjust: 100%;
 }
 * {
@@ -87,6 +87,28 @@ body::-webkit-scrollbar-thumb {
   background: var(--primary-color);
 }
 
+/* Inquiry Form */
+
+.call-section_block.iframe-block {
+  background-color: #08182f;
+  background: #08182f;
+}
+.form_iframe {
+  width: 100% !important;
+  background: transparent !important;
+  background-color: transparent !important;
+
+  border: none;
+  overflow: hidden;
+  height: 386px;
+}
+.form_iframe html {
+  background-color: transparent !important;
+  background: transparent !important;
+}
+
+/* Inquiry Form End */
+
 /* Globals  */
 .chevron_d-active {
   transform: rotate(-180deg);
@@ -148,6 +170,7 @@ body::-webkit-scrollbar-thumb {
   gap: 1rem;
 }
 .v-align-gap-2 {
+  display: grid;
   gap: 2rem;
 }
 .v-align-gap-4 {
@@ -278,24 +301,41 @@ h2.hd__prest span::after {
 h2.hd__prest span::after {
   line-height: 0.6;
 } */
-.hd__anm::before {
+/* .hd__anm::before {
   content: "THE MUTANT";
   position: absolute;
   top: 0;
   bottom: 0;
   animation: MutantAnimation 1500ms infinite linear alternate;
   left: 0;
+  cursor: text;
 }
+@keyframes HeadingAnimation {
+  0% {
+    visibility: visible;
+  }
+  50% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+} */
 .hd__anm::after {
   content: "NICK WALKER";
-  animation: HeadingAnimation 1500ms infinite linear alternate;
+  animation: HeadingAnimation 1500ms infinite linear infinite;
+  cursor: text;
+  display: inline-block;
 }
 @keyframes MutantAnimation {
-  from {
-    opacity: 0;
+  0% {
+    visibility: hidden;
   }
-  to {
-    opacity: 1;
+  50% {
+    visibility: visible;
+  }
+  100% {
+    visibility: hidden;
   }
 }
 
@@ -372,15 +412,6 @@ body {
   background-repeat: no-repeat;
   grid-column: 1/-1;
   filter: drop-shadow(0px 7px 57px #000000);
-}
-
-@keyframes HeadingAnimation {
-  from {
-    opacity: 1;
-  }
-  to {
-    opacity: 0;
-  }
 }
 
 /* About Nick */
@@ -469,6 +500,7 @@ body {
   text-transform: none;
   background-color: #1b1b1b !important;
   color: var(--grey-color);
+  border-radius: 0;
 }
 
 .dropdown_container {
@@ -485,6 +517,8 @@ body {
   z-index: 99;
   /*   height: 0%;
   overflow: hidden; */
+  border-radius: 0 0 0.4rem 0.4rem;
+  overflow: hidden;
 }
 .plans_pick-container {
   position: relative;
@@ -682,7 +716,37 @@ body {
 
 /* Inquiry Section End */
 
+/* Presentation Section */
+
+.presentation-break {
+  display: none;
+}
+
+.presentation-wrapper .workouts .presentation-img {
+  height: 25rem;
+  background: url(./assets/images/presentation/workout.jpg);
+  background-size: cover;
+}
+.presentation-wrapper .nutrition .presentation-img {
+  height: 25rem;
+  background: url(./assets/images/presentation/meals.jpg);
+  background-size: cover;
+}
+.presentation-wrapper .communication .presentation-img {
+  height: 25rem;
+  background: url(./assets/images/presentation/communication.jpg);
+  background-size: cover;
+}
+
+/*  */
+
 @media screen and (min-width: 768px) {
+  .presentation-wrapper {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .presentation-wrapper .description {
+    display: none;
+  }
   .training_wrapper h2 {
     text-align: center;
   }
@@ -803,6 +867,44 @@ body {
 }
 
 @media screen and (min-width: 1048px) {
+  .presentation-wrapper .workouts .presentation-img,
+  .presentation-wrapper .nutrition .presentation-img,
+  .presentation-wrapper .communication .presentation-img {
+    height: 35rem;
+
+    background-repeat: no-repeat;
+  }
+  .presentation-wrapper .communication .presentation-img {
+    background-position: 18% 0;
+  }
+  .presentation-wrapper .workouts .presentation-img {
+    background-position: center;
+  }
+  .presentation-heading {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .presentation-heading h2 {
+    grid-column: 1/-1;
+  }
+  .presentation-heading h5 {
+    grid-column: 1/3;
+  }
+  .presentation-heading p {
+    grid-column: 1/2;
+  }
+  .presentation-wrapper {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2rem;
+    margin-top: 1rem;
+  }
+  .presentation-wrapper .description {
+    display: grid;
+    align-content: baseline;
+    margin-top: 4rem;
+  }
+  .presentation-break {
+    display: none;
+  }
   .mutant-arm_imgB {
     grid-column: 2/3;
     grid-row: auto;
@@ -1074,6 +1176,9 @@ body {
   .call-section_wrapper,
   .inquiry_block-wrapper {
     max-width: 26rem;
+  }
+  .presentation-heading p {
+    grid-column: 1/3;
   }
 }
 
