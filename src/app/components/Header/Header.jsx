@@ -14,7 +14,7 @@ function Header() {
           className={styles.nick_logo}
         />
         <div>
-          <p className="colored-white">Home</p>
+          <p className="colored-white"></p>
         </div>
       </div>
     </header>
