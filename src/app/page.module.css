@@ -31,6 +31,10 @@
   .nicks_achievements {
     display: grid;
   }
+  .nicks_achievements {
+    line-height: 100%;
+    text-align: right;
+  }
 }
 @media screen and (min-width: 1024px) {
   .hero_section {

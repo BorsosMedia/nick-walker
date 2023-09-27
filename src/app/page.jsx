@@ -45,7 +45,7 @@ export default function Home() {
             {/*             <div className="h-alig-gap-1"> */}
             <h5
               className="colored-grey bold uppercase"
-              style={{ textAlign: "right" }}
+          
             >
               "I SHOW MY STRENGTHS AND MY WEAKNESSES. <br />
               THAT’S IT"
