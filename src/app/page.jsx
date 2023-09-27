@@ -48,7 +48,7 @@ export default function Home() {
               style={{ textAlign: "right" }}
             >
               "I SHOW MY STRENGTHS AND MY WEAKNESSES. <br />
-              THAT’S IT."
+              THAT’S IT"
             </h5>
             {/*        </div> */}
 
