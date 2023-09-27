@@ -267,7 +267,7 @@ export default function Home() {
         </div>
       </section>
       <InstagramWidget />
-      <YoutubeWidget />
+      {/*  <YoutubeWidget /> */}
       <Footer />
     </main>
   );
