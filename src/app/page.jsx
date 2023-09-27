@@ -14,6 +14,7 @@ import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import FullTimeCoaching from "./components/FullTimeCoaching";
 import InstagramWidget from "./components/InstagramWidget";
+import YoutubeWidget from "./components/YoutubeWidget";
 export default function Home() {
   const ref = useRef();
   const HandleCTA = () => {
@@ -266,6 +267,7 @@ export default function Home() {
         </div>
       </section>
       <InstagramWidget />
+      <YoutubeWidget />
       <Footer />
     </main>
   );
