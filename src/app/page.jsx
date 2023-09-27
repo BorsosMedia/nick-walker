@@ -43,10 +43,7 @@ export default function Home() {
           </div>
           <div className={`${styles.nicks_achievements} v-align-gap-1`}>
             {/*             <div className="h-alig-gap-1"> */}
-            <h5
-              className="colored-grey bold uppercase"
-          
-            >
+            <h5 className="colored-grey bold uppercase">
               "I SHOW MY STRENGTHS AND MY WEAKNESSES. <br />
               THAT’S IT"
             </h5>
@@ -161,7 +158,9 @@ export default function Home() {
             consultation for free and I will try to clear your doubts. Let me
             know what’s on your mind.
           </p>
-          <button
+          <a
+            href="https://payments.walkernationcoaching.com/15-min-call-booking"
+            target="_blank"
             className={`${button.tertiary} button h-align-gap-1 v-align-center`}
           >
             <span className="colored-primary ">Open The Calendar</span>
@@ -173,7 +172,7 @@ export default function Home() {
               }}
               className="icon--sm colored-primary"
             />
-          </button>
+          </a>
         </div>
       </section>
       <section className="block-content bloodwork_block max-gl-wdh">

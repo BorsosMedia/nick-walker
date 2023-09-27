@@ -750,7 +750,6 @@ body {
   content: "";
   background: url(./assets/icons/check.svg);
   display: inline-block;
-  margin-right: 0.5rem;
   height: 1.5rem;
   width: 2rem;
   background-size: contain;
