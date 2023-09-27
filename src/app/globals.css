@@ -750,6 +750,7 @@ body {
   content: "";
   background: url(./assets/icons/check.svg);
   display: inline-block;
+  margin-right: 0.5rem;
   height: 1.5rem;
   width: 2rem;
   background-size: contain;
@@ -800,7 +801,7 @@ body {
   }
 
   .arm_guide-container .button {
-    max-width: var(--button-width);
+    max-width: 18rem;
     grid-column: 1/-1;
     justify-self: center;
   }

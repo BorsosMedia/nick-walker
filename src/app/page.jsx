@@ -284,7 +284,7 @@ export default function Home() {
             href=""
             className={`${button.primary} ${button.secondary} ${button.cta_action} button text-center `}
           >
-            Learn More
+            Join The Waitlist To Know When It Drops
           </a>
         </div>
       </section>

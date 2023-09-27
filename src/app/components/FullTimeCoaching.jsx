@@ -129,7 +129,7 @@ export const FullTimeCoaching = forwardRef(({}, ref) => {
                 : "full-time-plan_card v-align-gap-1"
             }
           >
-            <h3 className="colored-white text-center">Training Plan</h3>
+            <h3 className="colored-white text-center">Coaching</h3>
             <p className="colored-grey">
               We will develop a personalized workout and nutrition plan that can
               help you achieve your fitness goals. I will be there to provide
@@ -191,10 +191,10 @@ export const FullTimeCoaching = forwardRef(({}, ref) => {
               Purchase Now
             </a>
             <ul className="colored-grey plan-ul">
-              <li>Frequent Check-Ins (Email/SMS)</li>
               <li>Customized Training and Nutrition Plan</li>
-              <li>Health Monitoring for Well-Being</li>
               <li>Constant Motivation and Support</li>
+              <li>Health Monitoring for Well-Being</li>
+              <li>Frequent Check-Ins</li>
             </ul>
           </div>
         </div>

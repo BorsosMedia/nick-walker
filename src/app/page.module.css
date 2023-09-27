@@ -31,7 +31,7 @@
   .nicks_achievements {
     display: grid;
   }
-  .nicks_achievements {
+  .nicks_achievements h5 {
     line-height: 100%;
     text-align: right;
   }
