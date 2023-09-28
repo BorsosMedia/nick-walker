@@ -117,7 +117,7 @@ export default function Home() {
           </p>
           {/*     <p className="colored-grey bold">Starting at $399</p>  */}
         </div>
-        <div className="v-align-gap-1 presentation-wrapper">
+        <div className="v-align-gap-2 presentation-wrapper">
           <div className="v-align-gap-1 workouts">
             <h5 className="colored-white uppercase">CUSTOMIZED WORKOUTS</h5>
             <div className="presentation-img "></div>

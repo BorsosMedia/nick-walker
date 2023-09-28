@@ -8,7 +8,7 @@
   --max-global-width: 1580px;
   --button-width: 14rem;
 
-  --padding: 1.5rem;
+  --padding: 3rem 1.5rem;
   --center: auto;
 
   font-synthesis: none;
@@ -715,6 +715,7 @@ body {
     rgba(113, 17, 17, 1) 0%,
     rgba(126, 12, 12, 1) 100%
   );
+  padding: 3rem 1rem 0 1rem;
 }
 
 /* Inquiry Section End */
@@ -885,6 +886,9 @@ body {
 }
 
 @media screen and (min-width: 1048px) {
+  .block-content.inquiry_block {
+    padding: 3rem 6rem 0 6rem;
+  }
   .presentation-wrapper .workouts .presentation-img,
   .presentation-wrapper .nutrition .presentation-img,
   .presentation-wrapper .communication .presentation-img {
