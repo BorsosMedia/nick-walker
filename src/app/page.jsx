@@ -81,7 +81,7 @@ export default function Home() {
                 <Image src={mind} />
                 <p className="colored-grey">Control</p>
               </div>
-           
+
               <div className="v-align-gap-005 h-justify-center-g">
                 <Image src={pullUp} />
                 <p className="colored-grey">Consistency</p>
@@ -212,7 +212,7 @@ export default function Home() {
 
       <section className="block-content nick__acc-grid max-gl-wdh">
         <h2 className="colored-white uppercase">
-          Results Speak for Themselves When You
+          Results Speak for Themselves When You{" "}
           <span className="colored-primary">work hard</span>
         </h2>
         <div className="nicks-hdns">
@@ -282,10 +282,11 @@ export default function Home() {
           <div className="mutant-arm_imgB"></div>
 
           <a
-            href=""
+            href="https://payments.walkernationcoaching.com/nw-mutant-arm-guide-pay"
+            target="_blank"
             className={`${button.primary} ${button.secondary} ${button.cta_action} button text-center `}
           >
-            Join The Waitlist To Know When It Drops
+            Purchase the mutant arm guide
           </a>
         </div>
       </section>
