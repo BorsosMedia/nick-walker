@@ -1168,8 +1168,6 @@ body {
   .train-process > div {
     justify-content: space-between !important;
     width: 80%;
-    position: sticky;
-    top: 10rem;
   }
 }
 
@@ -1203,6 +1201,9 @@ body {
 
   .train-process > div {
     width: 85%;
+
+    position: sticky;
+    top: 10rem;
   }
 }
 @media screen and (min-width: 1580px) {
