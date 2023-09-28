@@ -81,10 +81,7 @@ export default function Home() {
                 <Image src={mind} />
                 <p className="colored-grey">Control</p>
               </div>
-              <div className="v-align-gap-005 h-justify-center-g">
-                <Image src={dumbbell} />
-                <p className="colored-grey">Determination</p>
-              </div>
+           
               <div className="v-align-gap-005 h-justify-center-g">
                 <Image src={pullUp} />
                 <p className="colored-grey">Consistency</p>
@@ -92,6 +89,10 @@ export default function Home() {
               <div className="v-align-gap-005 h-justify-center-g">
                 <Image src={protein} />
                 <p className="colored-grey">Nutrition</p>
+              </div>
+              <div className="v-align-gap-005 h-justify-center-g">
+                <Image src={dumbbell} />
+                <p className="colored-grey">Determination</p>
               </div>
             </div>
           </div>
