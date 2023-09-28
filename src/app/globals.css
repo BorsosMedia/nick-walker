@@ -1202,7 +1202,7 @@ body {
   }
 
   .train-process > div {
-    width: 100%;
+    width: 85%;
   }
 }
 @media screen and (min-width: 1580px) {
@@ -1217,6 +1217,9 @@ body {
 }
 
 @media screen and (min-width: 1740px) {
+  .train-process > div {
+    width: 90%;
+  }
   .full-time-plan_card,
   .call-section_wrapper,
   .inquiry_block-wrapper {
