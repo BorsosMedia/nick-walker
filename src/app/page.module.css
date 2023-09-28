@@ -11,6 +11,7 @@
   align-items: center;
   justify-content: flex-start;
   filter: drop-shadow(0px 7px 57px #0e0e0e);
+  padding: 0;
 }
 
 .nicks_acc {
@@ -19,7 +20,19 @@
 .nicks_achievements {
   display: none;
 }
+.hero_wrapper {
+  padding: 1.5rem;
+}
 @media screen and (min-width: 768px) {
+  .hero_section {
+    background-position: initial;
+    background: linear-gradient(270deg, #0e0e0e 0%, rgba(14, 14, 14, 0) 50%),
+      linear-gradient(90deg, #0e0e0e 0%, rgba(0, 0, 0, 0) 50%),
+      url(./assets/images/bg.png), #d3d3d300 50% / cover no-repeat;
+
+    background-size: cover, cover;
+    background-repeat: no-repeat;
+  }
   .hero_wrapper {
     justify-content: space-between;
     grid-auto-flow: column;
@@ -64,5 +77,17 @@
 @media screen and (min-width: 1580px) {
   .hero_section {
     background-position: center;
+  }
+}
+@media screen and (min-width: 1740px) {
+  .hero_section {
+    background-position: initial;
+  }
+}
+@media screen and (min-width: 2220px) {
+  .hero_wrapper {
+    /*     padding: 3rem 6rem; */
+
+    max-width: 1980px;
   }
 }

@@ -1230,6 +1230,12 @@ body {
     font-size: 1.3rem;
   }
 }
+@media screen and (min-width: 2220px) {
+  .max-gl-wdh {
+    max-width: 1980px;
+    margin-inline: auto;
+  }
+}
 
 @media screen and (min-height: 1100px) and (min-width: 1340px) {
   .full-time-plan_card {
