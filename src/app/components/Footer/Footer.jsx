@@ -29,16 +29,18 @@ function Footer() {
           </a>
         </div>
         <p className="colored-white text-center">
-          Website developed and design by{" "}
-          <span
+          Website Developed and Designed by{" "}
+          <a
+            href="https://www.borsosmedia.com/"
+            target="_blank"
             className="bold colored-primary"
             style={{ textDecoration: "underline" }}
           >
             Borsos Media
-          </span>
+          </a>
         </p>
         <p className="colored-white text-center">
-          Nicholas Walker - All Rights Reserved
+          Nick Walker - All Rights Reserved
         </p>
       </div>
     </footer>
