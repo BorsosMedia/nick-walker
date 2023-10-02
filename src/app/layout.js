@@ -1,7 +1,7 @@
 import "./globals.css";
 import localFont from "next/font/local";
 import { PT_Sans_Narrow } from "next/font/google";
-import gtm from './gtm.js';
+import gtm from "./gtm.js";
 
 const deutschlander = localFont({
   src: "./assets/fonts/deutschlander.woff2",
@@ -27,9 +27,11 @@ const ptsans = PT_Sans_Narrow({
 export default function RootLayout({ children }) {
   return (
     <html lang="en" suppressHydrationWarning>
-
       <head>
-        <script async src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}></script>
+        <script
+          async
+          src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
+        ></script>
         <script src={gtm}></script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="theme-color" content="#7e0c0c" />

@@ -743,12 +743,13 @@ body {
   height: 25rem;
   background: url(./assets/images/presentation/workout.jpg);
   background-size: cover;
+  background-position: center;
 }
 .presentation-wrapper .nutrition .presentation-img {
   height: 25rem;
   background: url(./assets/images/presentation/meals.png);
-  background-size: cover;
   background-position: center;
+  background-size: cover;
 }
 .presentation-wrapper .communication .presentation-img {
   height: 25rem;

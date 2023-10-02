@@ -74,7 +74,7 @@ export default function Home() {
             you transform yours.
           </p>
           <div className="train-process v-align-gap-1 m-top-1">
-            <h4 className="colored-grey uppercase">What Moves My Training?</h4>
+            <h5 className="colored-grey uppercase">What Moves My Training?</h5>
             <div className="h-align-gap-1 h-justify-between v-align-center h-grid-auto">
               <div className="v-align-gap-005 h-justify-center-g">
                 <Image src={mind} />
@@ -132,7 +132,7 @@ export default function Home() {
             <div className="presentation-img "></div>
           </div>
           <div className="v-align-gap-1 description">
-            <h5 className="colored-white uppercase">Who Can Train With Me?</h5>
+            <h6 className="colored-white uppercase">Who Can Train With Me?</h6>
             <ul className="v-align-gap-005">
               <li className="colored-grey">Beginners</li>
               <li className="colored-grey">Fitness Enthusiasts</li>
