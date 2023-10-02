@@ -1,8 +1,7 @@
 import "./globals.css";
 import localFont from "next/font/local";
 import { PT_Sans_Narrow } from "next/font/google";
-import Script from "next/script";
-import Head from "next/head";
+import gtm from './gtm.js';
 
 const deutschlander = localFont({
   src: "./assets/fonts/deutschlander.woff2",
@@ -28,20 +27,22 @@ const ptsans = PT_Sans_Narrow({
 export default function RootLayout({ children }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <Script strategy="lazyOnload">
-        {`
-                    window.dataLayer = window.dataLayer || [];
-                    function gtag(){dataLayer.push(arguments);}
-                    gtag('js', new Date());
-                    gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}', {
-                    page_path: window.location.pathname,
-                    });
-                `}
-      </Script>
-      <Head>
+      // <Script strategy="lazyOnload">
+      //   {`
+      //               window.dataLayer = window.dataLayer || [];
+      //               function gtag(){dataLayer.push(arguments);}
+      //               gtag('js', new Date());
+      //               gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}', {
+      //               page_path: window.location.pathname,
+      //               });
+      //           `}
+      // </Script>
+      <head>
+        <script async src=`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`></script>
+        <script src={gtm}></script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="theme-color" content="#7e0c0c" />
-      </Head>
+      </head>
 
       <body className={`${ptsans.variable} ${deutschlander.variable}`}>
         {children}
