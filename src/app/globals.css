@@ -748,7 +748,7 @@ body {
 .presentation-wrapper .nutrition .presentation-img {
   height: 25rem;
   background: url(./assets/images/presentation/meals.png);
-  background-position: center;
+  background-position: 20%;
   background-size: cover;
 }
 .presentation-wrapper .communication .presentation-img {
