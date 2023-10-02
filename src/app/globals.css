@@ -441,7 +441,7 @@ body {
 
 .nicks-wrapperB .nicks-photo {
   background: linear-gradient(180deg, rgba(14, 14, 14, 0) 50%, #0e0e0e 100%),
-    url(./assets/images/posing.webp);
+    url(./assets/images/posing.png);
   background-size: cover;
   background-position: center;
   height: 25rem;
@@ -453,7 +453,7 @@ body {
 }
 .nicks-wrapperA .nicks-photo {
   background: linear-gradient(180deg, rgba(14, 14, 14, 0) 50%, #0e0e0e 100%),
-    url(./assets/images/dumbbell.webp);
+    url(./assets/images/dumbbell.png);
   background-size: cover;
   background-position: center;
   height: 25rem;
