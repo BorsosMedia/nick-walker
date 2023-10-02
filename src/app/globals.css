@@ -681,7 +681,7 @@ body {
   grid-row: 2/3;
   background: url(./assets/images/arm-guideB.webp);
   background-size: cover;
-  height: 25rem;
+  height: 100%;
   width: 100%;
   filter: drop-shadow(0px 7px 57px #000000);
   background-position: 92%;

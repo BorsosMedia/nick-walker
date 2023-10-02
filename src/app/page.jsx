@@ -44,8 +44,7 @@ export default function Home() {
           <div className={`${styles.nicks_achievements} v-align-gap-1`}>
             {/*             <div className="h-alig-gap-1"> */}
             <h5 className="colored-grey bold uppercase">
-              "I SHOW MY STRENGTHS AND MY WEAKNESSES. <br />
-              THAT’S IT"
+              Only accepting 30 people to start
             </h5>
             {/*        </div> */}
 
@@ -270,13 +269,14 @@ export default function Home() {
             </div>
 
             <div className="v-align-gap-005">
-              <h4 className="colored-white">3rd</h4>
+              <h3 className="colored-white">3rd</h3>
               <p className="colored-grey">
                 Learn about the different methods of building muscle and adjust
                 your volume and repetition approach to make the most out of
                 them.
               </p>
             </div>
+            <p className="colored-white">Starting at $29.99</p>
           </div>
           <div className="mutant-arm_imgA"></div>
           <div className="mutant-arm_imgB"></div>
