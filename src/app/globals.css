@@ -735,6 +735,10 @@ body {
 .presentation-img {
   filter: drop-shadow(0px 7px 57px #000000);
 }
+.presentation-wrapper h5 {
+  position: relative;
+  z-index: 2;
+}
 .presentation-wrapper .workouts .presentation-img {
   height: 25rem;
   background: url(./assets/images/presentation/workout.jpg);
