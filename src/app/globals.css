@@ -746,13 +746,15 @@ body {
 }
 .presentation-wrapper .nutrition .presentation-img {
   height: 25rem;
-  background: url(./assets/images/presentation/meals.jpg);
+  background: url(./assets/images/presentation/meals.png);
   background-size: cover;
+  background-position: center;
 }
 .presentation-wrapper .communication .presentation-img {
   height: 25rem;
-  background: url(./assets/images/presentation/communication.jpg);
+  background: url(./assets/images/presentation/communication.png);
   background-size: cover;
+  background-position: center;
 }
 .description ul li {
   display: flex;
