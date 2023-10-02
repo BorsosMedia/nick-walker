@@ -1168,6 +1168,8 @@ body {
   .nick__acc-grid h2 {
     font-size: clamp(7.4rem, 23vw, 8rem);
     max-width: 46rem;
+    position: relative;
+    z-index: 2;
   }
   .arm-guide h2 {
     font-size: clamp(7.4rem, 23vw, 8rem);
