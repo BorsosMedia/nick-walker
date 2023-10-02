@@ -425,7 +425,9 @@ body {
 .nicks-hdns {
   display: none;
 }
-
+.nick__acc-grid p {
+  position: relative;
+}
 .nicks-wrapper .nicks-photo {
   display: grid;
   align-items: flex-end;
@@ -765,6 +767,7 @@ body {
   }
   .presentation-wrapper .description {
     display: none;
+    position: relative;
   }
   .training_wrapper h2 {
     text-align: center;
@@ -1230,7 +1233,8 @@ body {
   .inquiry_block-wrapper {
     max-width: 33rem;
   }
-  p {
+  p,
+  li {
     font-size: 1.3rem;
   }
 }
