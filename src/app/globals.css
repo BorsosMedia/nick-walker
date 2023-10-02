@@ -910,9 +910,9 @@ body {
 
     background-repeat: no-repeat;
   }
-  .presentation-wrapper .communication .presentation-img {
+  /* .presentation-wrapper .communication .presentation-img {
     background-position: 18% 0;
-  }
+  } */
   .presentation-wrapper .workouts .presentation-img {
     background-position: center;
   }
