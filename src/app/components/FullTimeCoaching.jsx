@@ -142,7 +142,7 @@ export const FullTimeCoaching = forwardRef(({}, ref) => {
                 {(() => {
                   switch (Plan) {
                     case "a":
-                      return "399.00";
+                      return "399";
                     case "b":
                       return "1077.30";
                     case "c":

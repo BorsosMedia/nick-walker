@@ -548,6 +548,11 @@ body {
   color: var(--white-color);
 }
 
+.full-time-plan_card p,
+.full-time-plan_card li {
+  color: #e3e3e3;
+}
+
 .button.button-animation_active {
   animation: ButtonAnimation 500s ease-in-out !important;
 }
