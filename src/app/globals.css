@@ -299,40 +299,55 @@ h2.hd__prest span::after {
   line-height: 0.6;
 }
 
+.hd__anm::after {
+  content: "NICK WALKER";
+  animation: HeadingAnimation 3s infinite ease alternate-reverse;
+  cursor: text;
+  display: inline-block;
+  opacity: 1;
+}
+
+@keyframes HeadingAnimation {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
 .hd__anm::before {
   content: "THE MUTANT";
   position: absolute;
   top: 0;
   bottom: 0;
-  animation: MutantAnimation 2000ms infinite linear alternate-reverse;
+  animation: MutantAnimation 3s infinite ease alternate-reverse;
   left: 0;
   cursor: text;
   opacity: 1;
 }
-@keyframes HeadingAnimation {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-.hd__anm::after {
-  content: "NICK WALKER";
-  animation: HeadingAnimation 2000ms infinite linear alternate-reverse;
-  cursor: text;
-  display: inline-block;
-  opacity: 1;
-}
 @keyframes MutantAnimation {
-  from {
-    opacity: 1;
-  }
-  to {
+  0% {
     opacity: 0;
   }
-}
+  50% {
+    opacity: 0;
+  }
+  60% {
+    opacity: 1;
+  }
 
+  100% {
+    opacity: 1;
+  }
+}
 /*  */
 body {
   background-color: #000000;
