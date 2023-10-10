@@ -304,18 +304,16 @@ h2.hd__prest span::after {
   position: absolute;
   top: 0;
   bottom: 0;
-  animation: MutantAnimation 2000ms infinite linear alternate;
+  animation: MutantAnimation 2000ms infinite linear alternate-reverse;
   left: 0;
   cursor: text;
+  opacity: 1;
 }
 @keyframes HeadingAnimation {
-  0% {
-    opacity: 1;
-  }
-  50% {
+  from {
     opacity: 0;
   }
-  100% {
+  to {
     opacity: 1;
   }
 }
@@ -324,15 +322,13 @@ h2.hd__prest span::after {
   animation: HeadingAnimation 2000ms infinite linear alternate-reverse;
   cursor: text;
   display: inline-block;
+  opacity: 1;
 }
 @keyframes MutantAnimation {
-  0% {
-    opacity: 0;
-  }
-  50% {
+  from {
     opacity: 1;
   }
-  100% {
+  to {
     opacity: 0;
   }
 }
