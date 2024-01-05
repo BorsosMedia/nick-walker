@@ -144,13 +144,13 @@ export const FullTimeCoaching = forwardRef(({}, ref) => {
                 {(() => {
                   switch (Plan) {
                     case "a":
-                      return "399";
+                      return "319.20";
                     case "b":
-                      return "1077.30";
+                      return "861.84";
                     case "c":
-                      return "2034.90";
+                      return "1627.92";
                     case "d":
-                      return "3830.40";
+                      return "3064.32";
                   }
                 })()}
               </h2>
