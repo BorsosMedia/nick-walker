@@ -28,7 +28,7 @@ export const FullTimeCoaching = forwardRef(({}, ref) => {
       ref={ref}
     >
       <h2 className="colored-white uppercase">
-        Walker Nation - Full Time Coaching
+        Full Time Coaching - New Year's Sale
       </h2>
       <div className="full-time_container v-align-gap-1">
         <div className="plans_pick-container">
@@ -129,7 +129,9 @@ export const FullTimeCoaching = forwardRef(({}, ref) => {
                 : "full-time-plan_card v-align-gap-1"
             }
           >
-            <h3 className="colored-white text-center">Coaching</h3>
+            <h3 className="colored-white text-center">
+              New Year's Sale <br /> (20% OFF)
+            </h3>
             <p className="colored-grey">
               We will develop a personalized workout and nutrition plan that can
               help you achieve your fitness goals. I will be there to provide

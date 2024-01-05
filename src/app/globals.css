@@ -108,12 +108,12 @@ body::-webkit-scrollbar-thumb {
 }
 
 /* Inquiry Form End */
-
-/* Globals  */
 .chevron_d-active {
   transform: rotate(-180deg);
   transform-origin: center;
 }
+/* Globals  */
+
 .mg_full-content {
   margin: 1.5rem 0;
 }
@@ -133,7 +133,9 @@ body::-webkit-scrollbar-thumb {
 .m-left-005 {
   margin-left: 0.5rem;
 }
-
+.m-right-005 {
+  margin-right: 0.5rem;
+}
 .m-top-005 {
   margin-top: 0.5rem;
 }
@@ -222,9 +224,6 @@ a {
   align-content: center;
   align-items: center;
 }
-
-/* Globals End */
-
 .button {
   font-family: var(--font-deutschlander);
   padding: 1rem;
@@ -248,6 +247,7 @@ a {
 .text-center-m {
   text-align: center;
 }
+/* Globals End */
 
 .hd__big {
   text-transform: uppercase;
@@ -358,6 +358,7 @@ body {
   background-position: 50%;
   position: relative;
   min-height: inherit;
+  overflow-x: hidden;
 }
 .svc-cntr {
   position: fixed;

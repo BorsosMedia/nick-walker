@@ -32,7 +32,14 @@ export default function Home() {
               IT TAKES A LOT TO{" "}
               <span className="colored-primary bold">BECOME A MUTANT</span>
             </p>
-            <h1 className="colored-white">ARE YOU READY?</h1>
+            <h1 className="colored-white uppercase">
+              New Year's Sale
+              <br />
+              20% Off Everything
+            </h1>
+            {/*  <p className="colored-white uppercase">
+              Let's Start the Year Right
+            </p> */}
             <button
               onClick={HandleCTA}
               className={`${button.primary} ${button.sm_width} ${button.cta_action} button`}
@@ -178,8 +185,8 @@ export default function Home() {
       <section className="block-content bloodwork_block max-gl-wdh">
         <div className="bloodwork_wrapper v-align-gap-1 v-align-center">
           <h2 className="colored-black uppercase">
-            Need Help <br />
-            With <span className="colored-primary">Blood Work?</span>
+            <span className="colored-primary">Bloodwork</span> Tests <br />
+            With 20% OFF!
           </h2>
           <p className="colored-black">
             I’m all for taking a comprehensive approach to your fitness routine.
@@ -197,7 +204,7 @@ export default function Home() {
             work results to optimize your performance while preserving your
             health.
           </p> */}
-          <p className="colored-black bold">Starting at $399</p>
+          <p className="colored-black bold">Starting at $319.02</p>
           <a
             href="https://payments.walkernationcoaching.com/otp-blood-work"
             target="_blank"
