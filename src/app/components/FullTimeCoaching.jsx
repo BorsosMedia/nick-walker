@@ -139,6 +139,23 @@ export const FullTimeCoaching = forwardRef(({}, ref) => {
               as your physique.
             </p>
             <div className="h-align-gap-005 v-align-end">
+              <p className="colord-white">
+                Before:
+                <span className="overline">
+                  {(() => {
+                    switch (Plan) {
+                      case "a":
+                        return "$399.00";
+                      case "b":
+                        return "$1077.30";
+                      case "c":
+                        return "$2034.90";
+                      case "d":
+                        return "$3830.40";
+                    }
+                  })()}
+                </span>
+              </p>
               <h2 className="colored-white">
                 $
                 {(() => {
