@@ -28,7 +28,7 @@ export const FullTimeCoaching = forwardRef(({}, ref) => {
       ref={ref}
     >
       <h2 className="colored-white uppercase">
-        Full Time Coaching - New Year's Sale
+        Walker Nation - Full Time Coaching
       </h2>
       <div className="full-time_container v-align-gap-1">
         <div className="plans_pick-container">
@@ -129,9 +129,7 @@ export const FullTimeCoaching = forwardRef(({}, ref) => {
                 : "full-time-plan_card v-align-gap-1"
             }
           >
-            <h3 className="colored-white text-center">
-              New Year's Sale <br /> (20% OFF)
-            </h3>
+            <h3 className="colored-white text-center">Coaching</h3>
             <p className="colored-grey">
               We will develop a personalized workout and nutrition plan that can
               help you achieve your fitness goals. I will be there to provide
@@ -139,7 +137,7 @@ export const FullTimeCoaching = forwardRef(({}, ref) => {
               as your physique.
             </p>
             <div className="h-align-gap-005 v-align-end">
-              <p className="colord-white">
+              {/*    <p className="colord-white">
                 Before:
                 <span className="overline">
                   {(() => {
@@ -155,19 +153,19 @@ export const FullTimeCoaching = forwardRef(({}, ref) => {
                     }
                   })()}
                 </span>
-              </p>
+              </p> */}
               <h2 className="colored-white">
                 $
                 {(() => {
                   switch (Plan) {
                     case "a":
-                      return "319.20";
+                      return "399";
                     case "b":
-                      return "861.84";
+                      return "1077.30";
                     case "c":
-                      return "1627.92";
+                      return "2034.90";
                     case "d":
-                      return "3064.32";
+                      return "3830.40";
                   }
                 })()}
               </h2>
