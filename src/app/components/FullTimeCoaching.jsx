@@ -27,9 +27,10 @@ export const FullTimeCoaching = forwardRef(({}, ref) => {
       className="block-content max-gl-wdh training_wrapper v-align-gap-1"
       ref={ref}
     >
-      <h2 className="colored-white uppercase">
+      <h2 className="colored-white uppercase text-balance">
         Walker Nation - Full Time Coaching
       </h2>
+
       <div className="full-time_container v-align-gap-1">
         <div className="plans_pick-container">
           <button

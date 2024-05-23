@@ -80,20 +80,20 @@ export default function Home() {
             <h5 className="colored-grey uppercase">What Moves My Training?</h5>
             <div className="h-align-gap-1 h-justify-between v-align-center h-grid-auto">
               <div className="v-align-gap-005 h-justify-center-g">
-                <Image src={mind} />
+                <Image src={mind} alt="Control of the mind" />
                 <p className="colored-grey">Control</p>
               </div>
 
               <div className="v-align-gap-005 h-justify-center-g">
-                <Image src={pullUp} />
+                <Image src={pullUp} alt="Pull ups" />
                 <p className="colored-grey">Consistency</p>
               </div>
               <div className="v-align-gap-005 h-justify-center-g">
-                <Image src={protein} />
+                <Image src={protein} alt="Protein bottle" />
                 <p className="colored-grey">Nutrition</p>
               </div>
               <div className="v-align-gap-005 h-justify-center-g">
-                <Image src={dumbbell} />
+                <Image src={dumbbell} alt="Dumbbell" />
                 <p className="colored-grey">Determination</p>
               </div>
             </div>

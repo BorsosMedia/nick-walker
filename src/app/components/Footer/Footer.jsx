@@ -11,12 +11,15 @@ function Footer() {
           <a
             href="https://www.youtube.com/channel/UCotK4Y3BtGTdt7qzFR3vI1A"
             target="_blank"
+            aria-label="Open my Youtube channel"
           >
             <AiFillYoutube className="icon--sm footer--icon" />
           </a>
+
           <a
             href="https://www.instagram.com/nick_walker39/?hl=en"
             target="_blank"
+            aria-label="Open my Instagram page"
           >
             <BsInstagram className="icon--sm footer--icon" />
           </a>
@@ -24,6 +27,7 @@ function Footer() {
           <a
             href="https://www.tiktok.com/@nickwalkerifbbpro?lang=en"
             target="_blank"
+            aria-label="Open my Tiktok page"
           >
             <BiLogoTiktok className="icon--sm footer--icon" />
           </a>
@@ -35,6 +39,7 @@ function Footer() {
             target="_blank"
             className="bold colored-primary"
             style={{ textDecoration: "underline" }}
+            aria-label="Open Borsos Media's website"
           >
             Borsos Media
           </a>

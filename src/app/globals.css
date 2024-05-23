@@ -130,6 +130,11 @@ body::-webkit-scrollbar-thumb {
 .uppercase {
   text-transform: uppercase;
 }
+
+.text-balance {
+  text-wrap: balance;
+}
+
 .m-left-005 {
   margin-left: 0.5rem;
 }
